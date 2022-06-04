@@ -23,26 +23,35 @@ Linux 명령어 top은 실시간으로 실행 중인 프로세스를 보여주�
 |-b|Batch mode, 배치 모드에서 시작|
 |-c|Toggle command line/program name, 명령어 라인을 보여준다|
 |-d [N]|Delay time interval, 화면 갱신 시간 설정|
-|||
-|||
 |-h|Help, 도움말|
 |-H|Threads mode operation, 모든 개별 threads 출력|
 |-i|Idle process toggle, 좀비(zombie)또는 Idle 상태 무시|
 |-n|Limit iteration number, 실행 주기 설정|
-|||
 |-p [PID]|특정 프로세스만 출력|
 |-s|Secure mode operation, 보안 모드|
 |-S|Cumulative time toggle, 누적 시간 토글이 On일 경우 각 프로세스가 CPU를 사용한 시간과 함께 출력|
-|-u|지정된 유효 사용자에 의한 프로세스만 출력|
-|-U |지정된 사용자에 의한 프로세스만 출력|
+|-u [ID or name]|지정된 유효 사용자에 의한 프로세스만 출력|
+|-U [ID or name]|지정된 사용자에 의한 프로세스만 출력|
 |-v|version, 라이브러리 버전 출력|
-|||
-|||
-|||
 
  
 
-#### top 실행 중 명령어 옵션
+#### top 실행 중 명령어
+|키|설명|
+|---|-----|
+|space bar|Refresh|
+|k|kill, process 종료|
+|r|nice, 우선순위 값 변경|
+|c|명령 인자 on/off|
+|l|첫번째 행 on/off|
+|t|Task 항목 on/off|
+|m|CPU 상황 on/off|
+|n|출력할 프로세스 개수 설정|
+|u|입력한 유저의 프로세스만 출력|
+|i|좀비(zombie)또는 Idle 상태 무시|
+|d|Refresh 간격 조절|
+|Z|출력 색상 변경|
+|q|top 종료|
 
 **정렬**
 |키|정렬 기준 column|설명|
