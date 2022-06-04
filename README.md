@@ -4,7 +4,7 @@
 
 ### 목차  
 1. [리눅스 명령어](#리눅스-명령어-top,-ps,-jobs,-kill)  
-1.1 [top](1.-top)  
+1.1 [top](#top)  
 1.2 [ps](#2.-ps)  
 1.3 [jobs](#3.-jobs)  
 1.4 [kill](#4.-kill)  
@@ -28,8 +28,8 @@ Linux 명령어 top은 실시간으로 실행 중인 프로세스를 보여주�
 2. USER : 실행한 USER 이름
 3. PR : 스케줄링되는 우선순위  
 4. NI : nice 값  
-5. VIRT : 프로세스가 소비하고 있는 총 메모리  
-6. RES : RAM에서 사용중인 메모리의 크기  
+5. VIRT : 가상메모리 사용량  
+6. RES : resident 메모리   
 7. SHR : 공유메모리  
 8. S : 프로세스 현재 상태  
 9. %CPU : CPU 사용량
