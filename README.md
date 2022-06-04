@@ -4,7 +4,7 @@
 
 ### 목차  
 1. [리눅스 명령어](#리눅스-명령어-top,-ps,-jobs,-kill)  
-1.1 [top](#1.-top)  
+1.1 [top](1.-top)  
 1.2 [ps](#2.-ps)  
 1.3 [jobs](#3.-jobs)  
 1.4 [kill](#4.-kill)  
