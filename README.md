@@ -9,14 +9,14 @@
   
 
 ## 리눅스 명령어 top, ps, jobs, kill
-+ ### top
+### 1.top
 ![top_image](./image/top.PNG)
 
-### + ps
+### 2.ps
 
-### + jobs
+### 3.jobs
 
-### + kill
+### 4.kill
 
 
 ## vim 에디터 매크로 활용방법
