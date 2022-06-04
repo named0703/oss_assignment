@@ -21,7 +21,7 @@ Linux 명령어 top은 실시간으로 실행 중인 프로세스를 보여주�
 Line 1 : System time, Uptime, User 및 load 평균  
 Line 2 : Tasks 정보, process 상태    
 Line 3 : CPU 사용량, 모든 값의 총 합은 100%  
-    - us : 유저 영역의 CPU 사용률   
+ - us : 유저 영역의 CPU 사용률   
     - sy : 커널 영역의 CPU 사용률  
     - ni : 우선순위 설정에 사용하는 CPU 사용률  
     - id : 사용하고 안하는 비율  
