@@ -30,8 +30,8 @@ Line 3 : CPU 사용량, 모든 값의 총 합은 100%
  si : 소프트웨어 interrupt에 사용되는 CPU 사용률    
  st : CPU를 VM에서 사용하여 대기하는 CPU 비율  
 Line 4~5 : Memory 사용량(total: 총 메모리 양, free: 사용가능한 메모리 양, used: 사용중인 메모리 양)  
- - Line 4 Mem : RAM 메모리 공간  
- - Line 5 Swap : Swap 메모리 공간  
+ Line 4 (Mem) : RAM 메모리 공간  
+ Line 5 (Swap) : Swap 메모리 공간  
 
 * ### top 명령어 옵션
 |옵션|설명|
