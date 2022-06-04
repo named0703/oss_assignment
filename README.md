@@ -18,20 +18,24 @@ Linux 명령어 top은 실시간으로 실행 중인 프로세스를 보여주�
 
 아래의 사진은 top을 입력한 결과 사진이다.  
 ![top_image](./image/top_.PNG)
-Line 1 : System time, Uptime, User 및 load 평균  
-Line 2 : Tasks 정보, process 상태    
-Line 3 : CPU 사용량, 모든 값의 총 합은 100%  
-    us : 유저 영역의 CPU 사용률   
-    sy : 커널 영역의 CPU 사용률  
-    ni : 우선순위 설정에 사용하는 CPU 사용률  
-    id : 사용하고 안하는 비율  
-    wa : IO가 완료될때까지 기다리고 있는 CPU 비율  
-    hi : 하드웨어 interrupt에 사용되는 CPU 사용률  
-    si : 소프트웨어 interrupt에 사용되는 CPU 사용률    
-    st : CPU를 VM에서 사용하여 대기하는 CPU 비율  
-Line 4~5 : Memory 사용량(total: 총 메모리 양, free: 사용가능한 메모리 양, used: 사용중인 메모리 양)  
- Line 4 (Mem) : RAM 메모리 공간  
- Line 5 (Swap) : Swap 메모리 공간  
+**Line 1** : System time, Uptime, User 및 load 평균  
+**Line 2** : Tasks 정보, process 상태    
+**Line 3** : CPU 사용량, 모든 값의 총 합은 100%  
+(us : 유저 영역의 CPU 사용률, sy : 커널 영역의 CPU 사용률, ni : 우선순위 설정에 사용하는 CPU 사용률, id : 사용하고 안하는 비율, wa : IO가 완료될때까지 기다리고 있는 CPU 비율, hi : 하드웨어 interrupt에 사용되는 CPU 사용률, si : 소프트웨어 interrupt에 사용되는 CPU 사용률, st : CPU를 VM에서 사용하여 대기하는 CPU 비율)  
+**Line 4~5** : Memory 사용량(Line 4 (Mem) : RAM 메모리 공간, Line 5 (Swap) : Swap 메모리 공간  
+**Line 6**  
+1. PID : 프로세스 ID  
+2. USER : 실행한 USER 이름
+3. PR : 스케줄링되는 우선순위  
+4. NI : nice 값  
+5. VIRT : 프로세스가 소비하고 있는 총 메모리  
+6. RES : RAM에서 사용중인 메모리의 크기  
+7. SHR : 공유메모리  
+8. S : 프로세스 현재 상태  
+9. %CPU : CPU 사용량
+10. %MEM : 메모리 사용량  
+11. TIME+ : 가동시간  
+12. COMMAND : 해당 프로세스를 실행한 커맨드  
 
 * ### top 명령어 옵션
 |옵션|설명|
