@@ -10,7 +10,7 @@
 
 ## 리눅스 명령어 top, ps, jobs, kill
 ### + top
-![top_image](./image/top.png)
+![top_image](./image/top.PNG)
 
 ### + ps
 
