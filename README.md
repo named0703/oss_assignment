@@ -17,7 +17,7 @@
 Linux 명령어 top은 실시간으로 실행 중인 프로세스를 보여주며 커널 관리 작업을 표시한다. 또한 CPU 및 메모리 사용량을 포함한 정보도 함께 표시한다.  
 
 아래의 사진은 top을 입력한 결과 사진이다.  
-![top_image](./image/top_.PNG)
+![top_image](./image/top_.PNG)  
 **Line 1** : System time, Uptime, User 및 load 평균  
 **Line 2** : Tasks 정보, process 상태    
 **Line 3** : CPU 사용량, 모든 값의 총 합은 100%  
