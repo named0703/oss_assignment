@@ -133,10 +133,10 @@ BSD 계열에서는 `ps aux`를 많이 사용한다. `ps aux`는 시스템에 �
 Linux 명령어 `jobs`는 백그라운드에 실행되고 있거나 현재 중지된 프로세스를 보여주는 명령어이다.  
 
 아래의 사진은 jobs 명령어를 입력한 결과 사진이다.  
-![jobs_image](./image/jobs.PNG) 
+![jobs_image](./image/jobs.PNG)   
 **설명**  
 1. job 번호 : 첫 번째 열의 숫자
-2. jobs 기호 : +, - 기호 (+: 현재 job, -: 현재 이전의 job
+2. jobs 기호 : +, - 기호 (+: 현재 job)
 3. jobs 상태 : job의 상태 (Running: 실행중, Stopped: 작업 일시중단, done: 작업 종료)
 4. jobs : job
 
@@ -150,6 +150,10 @@ Linux 명령어 `jobs`는 백그라운드에 실행되고 있거나 현재 중�
 |-s|중지된 작업만 출력|
 
 ### 4. kill
+Linux 명령어 `kill`은 프로세스에 signal을 보내는 명령어이다.
+
+아래의 사진은 `kill -l`을 입력한 결과 사진이다. `kill -l`은 signal의 종류를 출력한다.
+![kill_image](./image/kill.PNG)
 
 
 ## vim 에디터 매크로 활용방법
