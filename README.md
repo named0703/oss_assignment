@@ -156,12 +156,14 @@ Linux 명령어 `kill`은 프로세스에 signal을 보내는 명령어이다.
 아래의 사진은 `kill -l`을 입력한 결과 사진이다. `kill -l`은 signal의 종류를 출력한다.
 ![kill_image](./image/kill.PNG)
 
+### kill 명령어 옵션  
 |옵션|설명|
 |---|-----|
 |-s sig|SIG는 signal name|
 |-n sig|SIG는 signal number|
 |-l|signal list 출력|
 
+**signal**
 |signal 번호|signal 이름|설명|
 |---|-----|-----|
 |1|SIGHUP|연결 끊기|
