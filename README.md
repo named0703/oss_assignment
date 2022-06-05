@@ -162,7 +162,7 @@ Linux 명령어 `kill`은 프로세스에 signal을 보내는 명령어이다.
 |-n sig|SIG는 signal number|
 |-l|signal list 출력|
 
-**signal**
+#### signal
 |signal 번호|signal 이름|설명|
 |---|-----|-----|
 |1|SIGHUP|연결 끊기|
