@@ -1,5 +1,5 @@
-# 220605 oss_assignment
- 오픈소스SW개론 두 번째 과제입니다.  
+# 220605 oss_assignment2
+ INTRODUCTION TO OPEN SOURCE SW 두 번째 과제입니다.  
 
 
 ### 목차  
