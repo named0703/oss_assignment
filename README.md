@@ -22,7 +22,7 @@ Linux 명령어 `top`은 실시간으로 실행 중인 프로세스를 보여주
 **Line 2** : Tasks 정보, process 상태    
 **Line 3** : CPU 사용량, 모든 값의 총합은 100%  
 (us : 유저 영역의 CPU 사용률, sy : 커널 영역의 CPU 사용률, ni : 낮은 우선 순위 프로세스에 보낸 CPU 사용률, id : idle CPU 비율, wa : IO가 완료될 때까지 기다리고 있는 CPU 비율, hi : 하드웨어 interrupts에 사용되는 CPU 사용률, si : 소프트웨어 interrupt에 사용되는 CPU 사용률, st : CPU를 VM에서 사용하여 대기하는 CPU 비율)  
-**Line 4~5** : Memory 사용량(Line 4 (Mem) : RAM 메모리 공간, Line 5 (Swap) : Swap 메모리 공간  
+**Line 4~5** : Memory 사용량(Line 4(Mem): RAM 메모리 공간, Line 5(Swap): Swap 메모리 공간)  
 **Line 6**  
 1. PID : 프로세스 ID  
 2. USER : 실행한 USER 이름
