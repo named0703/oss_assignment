@@ -21,7 +21,8 @@ Linux 명령어 `top`은 실시간으로 실행 중인 프로세스를 보여주
 **Line 1** : System time, Uptime, User 및 load 평균  
 **Line 2** : Tasks 정보, process 상태    
 **Line 3** : CPU 사용량, 모든 값의 총 합은 100%  
-(us : 유저 영역의 CPU 사용률, sy : 커널 영역의 CPU 사용률, ni : 우선순위 설정에 사용하는 CPU 사용률, id : 사용하고 안하는 비율, wa : IO가 완료될때까지 기다리고 있는 CPU 비율, hi : 하드웨어 interrupt에 사용되는 CPU 사용률, si : 소프트웨어 interrupt에 사용되는 CPU 사용률, st : CPU를 VM에서 사용하여 대기하는 CPU 비율)  
+(us : 유저 영역의 CPU 사용률, sy : 커널 영역의 CPU 사용률, ni : 우선순위 설정에 사용하는 CPU 사용률, id : 사용하고 안하는 비율, wa : IO가 완료될때까지 기다리고 있는 CPU 비율, hi : 하드웨어 
+errupt에 사용되는 CPU 사용률, si : 소프트웨어 interrupt에 사용되는 CPU 사용률, st : CPU를 VM에서 사용하여 대기하는 CPU 비율)  
 **Line 4~5** : Memory 사용량(Line 4 (Mem) : RAM 메모리 공간, Line 5 (Swap) : Swap 메모리 공간  
 **Line 6**  
 1. PID : 프로세스 ID  
@@ -155,5 +156,43 @@ Linux 명령어 `kill`은 프로세스에 signal을 보내는 명령어이다.
 아래의 사진은 `kill -l`을 입력한 결과 사진이다. `kill -l`은 signal의 종류를 출력한다.
 ![kill_image](./image/kill.PNG)
 
+|옵션|설명|
+|---|-----|
+|-s sig|SIG는 signal name|
+|-n sig|SIG는 signal number|
+|-l|signal list 출력|
+
+|signal 번호|signal 이름|설명|
+|---|-----|-----|
+|1|SIGHUP|연결 끊기|
+|2|SIGINT|interrupt|
+|3|SIGQUIT|종료|
+|4|SIGILL|잘못된 명령|
+|5|SIGTRAP|TRAP 추적|
+|7|SIGBUS|BUS 에러|
+|8|SIGFPE|고정 소수점 예외|
+|9|SIGKILL|죽이기|
+|10|SIGUSR1|사용자 정의 시그널1|
+|11|SIGSEGV|Segmentation 위반|
+|12|SIGUSR2|사용자 정의 시그널2|
+|13|SIGPIPE|읽을 것이 없는 파이프에 대한 시그널|
+|14|SIGALRM|경고 clock|
+|15|SIGTERM|소프트웨어 종료|
+|16|SIGTKFLT|프로세서 스택 실패|
+|17|SIGCHLD|자식 프로세스의 상태변화|
+|18|SIGCONT|Continue|
+|19|SIGSTOP|정지|
+|20|SIGTSTP|키보드에 의해 발생하는 시그널|
+|21|SIGTTIN|백그라운드에서 tty 읽기|
+|22|SIGTTOU|백그라운드에서 tty 쓰기
+|23|SIGURG|socket의 긴급한 상태|
+|24|SIGXCPU|CPU 시간 제한 초과|
+|25|SIGXFSZ|파일 크기 제한 초과|
+|26|SIGVTALRM|가상 시간 경고|
+|27|SIGPROF|프로파일링 타이머 경고|
+|28|SIGWINCH|윈도우 사이즈 변경|
+|29|SIGIO|기술자에서 입출력 가능|
+|30|SIGPWR|전원 실패|
+|31|UNUSED|사용 안함|
 
 ## vim 에디터 매크로 활용방법
